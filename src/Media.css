@@ -1,0 +1,47 @@
+.Media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Media-Button-Container {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+.Media-Button:hover {
+  background-color: hsla(0,0%,60%,.2);
+}
+.Media-Button {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
+  line-height: 1;
+  font-size: 1.5vw;
+  color: #464646;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none
+}
+
+.Media-Image {
+  max-height: 30vh;
+  margin-top: 1vh;
+}
+.mediaTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}

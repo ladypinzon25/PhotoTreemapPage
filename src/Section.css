@@ -1,0 +1,14 @@
+.Section {
+  width: 35vw;
+  margin-top: 5vh;
+
+}
+.Section-Title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3vw;
+}
+.Section-Description {
+  color: #464646;
+  line-height: 5vh;
+  font-family: 'Montserrat', sans-serif;
+}
