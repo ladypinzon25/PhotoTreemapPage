@@ -8,6 +8,7 @@
   margin-top: 5vh;
   display: flex;
   justify-content: space-around;
+  width: 20vw;
 }
 .Media-Button:hover {
   background-color: hsla(0,0%,60%,.2);
